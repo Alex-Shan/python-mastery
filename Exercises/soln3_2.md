@@ -1,6 +1,6 @@
-# Exercise 3.2 - Solution
+# 练习 3.2 — 解答
 
-(c) Table Formatter
+(c) 表格格式化器
 
 ```python
 # tableformat.py
@@ -15,4 +15,4 @@ def print_table(records, fields):
 
 
 
-[Back](ex3_2.md)
+[返回](ex3_2.md)

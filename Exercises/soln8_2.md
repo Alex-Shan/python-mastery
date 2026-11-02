@@ -1,4 +1,4 @@
-# Exercise 8.2 - Solution
+# 练习 8.2 — 解答
 
 ```python
 # ticker.py
@@ -31,4 +31,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex8_2.md)
+[返回](ex8_2.md)

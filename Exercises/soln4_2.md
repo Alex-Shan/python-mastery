@@ -1,6 +1,6 @@
-# Exercise 4.2 - Solution
+# 练习 4.2 — 解答
 
-Here is the validator code in its entirety:
+完整的验证器代码如下：
 
 ```python
 class Validator:
@@ -49,7 +49,7 @@ class NonEmptyString(String, NonEmpty):
     pass
 ```
 
-## (c) Using the validators
+## (c) 使用验证器
 
 ```python
 # validate.py
@@ -90,4 +90,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex4_2.md)
+[返回](ex4_2.md)

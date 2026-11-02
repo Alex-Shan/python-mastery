@@ -1,6 +1,6 @@
-# Exercise 6.1 - Solution
+# 练习 6.1 — 解答
 
-## (a) Simplified Structures
+## (a) 简化结构
 
 ```python
 # structure.py
@@ -14,7 +14,7 @@ class Structure:
             setattr(self, name, arg)
 ```
 
-## (b) Making a Useful Representation
+## (b) 提供有用的表示
 
 [source, python]
 ```
@@ -25,7 +25,7 @@ class Structure:
                            ', '.join(repr(getattr(self, name)) for name in self._fields))
 ```
 
-## (c) Restricting Attribute Names
+## (c) 限制属性名
 
 [source, python]
 ```
@@ -40,4 +40,4 @@ class Structure:
 
 
 
-[Back](ex6_1.md)
+[返回](ex6_1.md)

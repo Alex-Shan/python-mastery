@@ -1,6 +1,6 @@
-# Exercise 5.3 - Solution
+# 练习 5.3 — 解答
 
-## (a) Higher order functions
+## (a) 高阶函数
 
 ```python
 # reader.py
@@ -40,7 +40,7 @@ def read_csv_as_instances(filename, cls, *, headers=None):
         return csv_as_instances(file, cls, headers=headers)
 ```
 
-## (b) Using map()
+## (b) 使用 map()
 
 ```python
 # reader.py
@@ -56,4 +56,4 @@ def convert_csv(lines, converter, *, headers=None):
 
 
 
-[Back](ex5_3.md)
+[返回](ex5_3.md)

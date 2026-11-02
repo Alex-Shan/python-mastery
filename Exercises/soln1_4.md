@@ -1,6 +1,6 @@
-# Exercise 1.4 - Solution
+# 练习 1.4 — 解答
 
-## (a) Defining a function
+## (a) 定义函数
 
 ```python
 # pcost.py
@@ -18,7 +18,7 @@ def portfolio_cost(filename):
 print(portfolio_cost('Data/portfolio.dat'))
 ```
 
-## (b) Adding some error handling
+## (b) 添加错误处理
 
 ```python
 # pcost.py
@@ -43,4 +43,4 @@ print(portfolio_cost('Data/portfolio3.dat'))
 ```
 
 
-[Back](ex1_4.md)
+[返回](ex1_4.md)

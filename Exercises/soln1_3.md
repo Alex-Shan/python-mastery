@@ -1,4 +1,4 @@
-# Exercise 1.3 - Solution
+# 练习 1.3 — 解答
 
 ```python
 # pcost.py
@@ -16,4 +16,4 @@ print(total_cost)
 ```
 
 
-[Back](ex1_3.md)
+[返回](ex1_3.md)

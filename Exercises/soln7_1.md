@@ -1,4 +1,4 @@
-# Exercise 7.1 - Solution
+# 练习 7.1 — 解答
 
 ```python
 # validate.py
@@ -44,4 +44,4 @@ def validated(func):
 
 
 
-[Back](ex7_1.md)
+[返回](ex7_1.md)

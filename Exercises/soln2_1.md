@@ -1,4 +1,4 @@
-# Exercise 2.1 - Solution
+# 练习 2.1 — 解答
 
 ```python
 # readrides.py
@@ -85,4 +85,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex2_1.md)
+[返回](ex2_1.md)

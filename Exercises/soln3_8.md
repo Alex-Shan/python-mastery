@@ -1,4 +1,4 @@
-# Exercise 3.8 - Solution
+# 练习 3.8 — 解答
 
 ```python
 # tableformat.py
@@ -85,4 +85,4 @@ def create_formatter(name, column_formats=None, upper_headers=False):
 
 
 
-[Back](ex3_8.md)
+[返回](ex3_8.md)

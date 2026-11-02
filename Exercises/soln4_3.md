@@ -1,4 +1,4 @@
-# Exercise 4.3 - Solution
+# 练习 4.3 — 解答
 
 ```python
 class Validator:
@@ -84,4 +84,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex4_3.md)
+[返回](ex4_3.md)

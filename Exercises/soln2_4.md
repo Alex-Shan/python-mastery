@@ -1,4 +1,4 @@
-# Exercise 2.4 - Solution
+# 练习 2.4 — 解答
 
 ```python
 # mutint.py
@@ -75,4 +75,4 @@ class MutInt:
 
 
 
-[Back](ex2_4.md)
+[返回](ex2_4.md)

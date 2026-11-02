@@ -1,7 +1,7 @@
-# Exercise 5.2 - Solution
+# 练习 5.2 — 解答
 
-None. Just work through the exercise.
+无单独解答，按练习操作即可。
 
 
 
-[Back](ex5_2.md)
+[返回](ex5_2.md)

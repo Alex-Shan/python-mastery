@@ -1,7 +1,7 @@
-# Exercise 8.4 - Solution
+# 练习 8.4 — 解答
 
-All of the code is given in the exercise description.
+全部代码均已在练习说明中给出。
 
 
 
-[Back](ex8_4.md)
+[返回](ex8_4.md)

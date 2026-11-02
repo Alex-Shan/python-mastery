@@ -1,6 +1,6 @@
-# Exercise 5.1 - Solution
+# 练习 5.1 — 解答
 
-This is a partial solution that does not include type-hints. 
+这是不包含类型提示的部分解答。
 
 ```python
 # reader.py
@@ -52,4 +52,4 @@ def read_csv_as_instances(filename, cls, *, headers=None):
 
 
 
-[Back](ex5_1.md)
+[返回](ex5_1.md)

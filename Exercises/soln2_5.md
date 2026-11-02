@@ -1,6 +1,6 @@
-# Exercise 2.5 - Solution
+# 练习 2.5 — 解答
 
-Here is a version of `readrides.py` with changes for parts (c) and (d).
+以下是对 (c)、(d) 部分作出修改后的 `readrides.py`。
 
 ```python
 # readrides.py
@@ -128,4 +128,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex2_5.md)
+[返回](ex2_5.md)

@@ -1,4 +1,4 @@
-# Exercise 6.2 - Solution
+# 练习 6.2 — 解答
 
 ```python
 # structure.py
@@ -30,4 +30,4 @@ class Structure:
 
 
 
-[Back](ex6_2.md)
+[返回](ex6_2.md)

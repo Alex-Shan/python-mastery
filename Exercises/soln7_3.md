@@ -1,6 +1,6 @@
-# Exercise 7.3 - Solution
+# 练习 7.3 — 解答
 
-Here's a full version of the `structure.py` file.   
+以下是 `structure.py` 的完整版本。
 
 ```python
 # structure.py
@@ -75,4 +75,4 @@ def validate_attributes(cls):
 
 
 
-[Back](ex7_3.md)
+[返回](ex7_3.md)

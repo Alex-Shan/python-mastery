@@ -1,4 +1,4 @@
-# Exercise 3.3 - Solution
+# 练习 3.3 — 解答
 
 ```python
 # stock.py
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     tableformat.print_table(portfolio, ['name', 'shares', 'price'])
 ```
 
-The `reader.py` file should now look like this:
+现在 `reader.py` 应如下所示：
 
 ```python
 # reader.py
@@ -81,4 +81,4 @@ def read_csv_as_instances(filename, cls):
 
 
 
-[Back](ex3_3.md)
+[返回](ex3_3.md)

@@ -1,6 +1,6 @@
-# Exercise 1.6 - Solution
+# 练习 1.6 — 解答
 
-## (b) Main Module
+## (b) 主模块
 
 ```python
 # pcost.py
@@ -27,4 +27,4 @@ if __name__ == '__main__':
 ```
 
 
-[Back](ex1_6.md)
+[返回](ex1_6.md)

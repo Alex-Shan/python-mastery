@@ -1,6 +1,6 @@
-# Exercise 1.2 - Solution
+# 练习 1.2 — 解答
 
-Solution code is shown in the exercise.
+解答代码已在练习中给出。
 
 
-[Back](ex1_2.md)
+[返回](ex1_2.md)

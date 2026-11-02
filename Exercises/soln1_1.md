@@ -1,4 +1,3 @@
-# Exercise 1.1 - Solution
+# 练习 1.1 — 解答
 
-Check [here](../Solutions/1_1/art.py)
-
+参见[这里](../Solutions/1_1/art.py)。

@@ -1,7 +1,7 @@
-# Exercise 7.4 - Solution
+# 练习 7.4 — 解答
 
-All of the solution code is given in the exercise description.
+全部解答代码均已在练习说明中给出。
 
 
 
-[Back](ex7_4.md)
+[返回](ex7_4.md)

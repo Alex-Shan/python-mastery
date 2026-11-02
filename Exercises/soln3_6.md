@@ -1,6 +1,6 @@
-# Exercise 3.6 - Solution
+# 练习 3.6 — 解答
 
-## (a) Better output for printing objects
+## (a) 改善对象的输出表示
 
 ```python
 # stock.py
@@ -14,7 +14,7 @@ class Stock:
     ...
 ```
 
-## (b) Making Objects Comparable
+## (b) 使对象可比较
 
 ```python
 class Stock:
@@ -25,10 +25,10 @@ class Stock:
     ...
 ```
 
-## (c) Context Managers
+## (c) 上下文管理器
 
-Code is given in the exercise.
+练习中已给出代码。
 
 
 
-[Back](ex3_6.md)
+[返回](ex3_6.md)

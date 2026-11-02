@@ -1,4 +1,4 @@
-# Exercise 2.6 - Solution
+# 练习 2.6 — 解答
 
 ```python
 # reader.py
@@ -22,4 +22,4 @@ def read_csv_as_dicts(filename, types):
 
 
 
-[Back](ex2_6.md)
+[返回](ex2_6.md)

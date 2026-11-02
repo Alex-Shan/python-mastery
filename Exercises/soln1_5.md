@@ -1,6 +1,6 @@
-# Exercise 1.5 - Solution
+# 练习 1.5 — 解答
 
-The solution is shown in the exercise description.
+解答已在练习说明中给出。
 
 
-[Back](ex1_5.md)
+[返回](ex1_5.md)

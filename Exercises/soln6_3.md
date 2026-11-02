@@ -1,4 +1,4 @@
-# Exercise 6.3 - Solution
+# 练习 6.3 — 解答
 
 ```python
 # structure.py
@@ -33,7 +33,7 @@ class Structure:
         cls._fields = tuple(sig.parameters)
 ```
 
-Here is the `Stock` class in progress:
+当前的 `Stock` 类如下：
 
 ```python
 # stock.py
@@ -56,4 +56,4 @@ Stock.set_fields()
 
 
 
-[Back](ex6_3.md)
+[返回](ex6_3.md)

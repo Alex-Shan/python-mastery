@@ -1,4 +1,4 @@
-# Exercise 3.1 - Solution
+# 练习 3.1 — 解答
 
 ```python
 # stock.py
@@ -45,4 +45,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex3_1.md)
+[返回](ex3_1.md)

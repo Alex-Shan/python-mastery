@@ -1,95 +1,89 @@
-# Advanced Python Mastery Exercises
+# 精通 Python 高级编程练习
 
-Copyright (C) 2007-2023  
-David M. Beazley  
+Copyright (C) 2007-2023<br>
+David M. Beazley<br>
 https://www.dabeaz.com
 
-This page contains links to all of the course exercises.  For the best experience,
-the exercises should be worked in order as later exercises often build upon earlier
-exercises.  The [`Solutions/`](../Solutions) directory contains fully worked
-out solutions to every exercise.  You can use this if you get stuck or you
-need to reset your code to a working state.
+本页链接到全部课程练习。后续练习经常依赖前面的练习，建议按顺序完成。[`Solutions/`](../Solutions) 包含每题的完整解答；遇到困难或需要将代码恢复到可工作状态时，可以参考。
 
-Before beginning, you should fork/clone the GitHub repo so that you have a
-local copy on your machine.  Exercises assume that all of your work will
-take place in the top-level `python-mastery` directory.
+开始前，先 fork 或克隆 GitHub 仓库到本机。练习假设所有工作均在顶层 `python-mastery` 目录中进行。
 
-Associated course presentation slides can be found at [PythonMastery.pdf](../PythonMastery.pdf).
+配套的英文原版幻灯片见 [PythonMastery.pdf](../PythonMastery.pdf)。
 
-## 1. Python Review
+## 1. Python 复习
 
-- [Exercise 1.1](ex1_1.md)
-- [Exercise 1.2](ex1_2.md)
-- [Exercise 1.3](ex1_3.md)
-- [Exercise 1.4](ex1_4.md)
-- [Exercise 1.5](ex1_5.md)
-- [Exercise 1.6](ex1_6.md)
+- [练习 1.1](ex1_1.md)
+- [练习 1.2](ex1_2.md)
+- [练习 1.3](ex1_3.md)
+- [练习 1.4](ex1_4.md)
+- [练习 1.5](ex1_5.md)
+- [练习 1.6](ex1_6.md)
 
-## 2. Data Handling
+## 2. 数据处理
 
-- [Exercise 2.1](ex2_1.md)
-- [Exercise 2.2](ex2_2.md)
-- [Exercise 2.3](ex2_3.md)
-- [Exercise 2.4](ex2_4.md)
-- [Exercise 2.5](ex2_5.md)
-- [Exercise 2.6](ex2_6.md)
+- [练习 2.1](ex2_1.md)
+- [练习 2.2](ex2_2.md)
+- [练习 2.3](ex2_3.md)
+- [练习 2.4](ex2_4.md)
+- [练习 2.5](ex2_5.md)
+- [练习 2.6](ex2_6.md)
 
-## 3. Classes and Objects
+## 3. 类与对象
 
-- [Exercise 3.1](ex3_1.md)
-- [Exercise 3.2](ex3_2.md)
-- [Exercise 3.3](ex3_3.md)
-- [Exercise 3.4](ex3_4.md)
-- [Exercise 3.5](ex3_5.md)
-- [Exercise 3.6](ex3_6.md)
-- [Exercise 3.7](ex3_7.md)
-- [Exercise 3.8](ex3_8.md)
+- [练习 3.1](ex3_1.md)
+- [练习 3.2](ex3_2.md)
+- [练习 3.3](ex3_3.md)
+- [练习 3.4](ex3_4.md)
+- [练习 3.5](ex3_5.md)
+- [练习 3.6](ex3_6.md)
+- [练习 3.7](ex3_7.md)
+- [练习 3.8](ex3_8.md)
 
-## 4. Inside Python Objects
+## 4. Python 对象内部机制
 
-- [Exercise 4.1](ex4_1.md)
-- [Exercise 4.2](ex4_2.md)
-- [Exercise 4.3](ex4_3.md)
-- [Exercise 4.4](ex4_4.md)
+- [练习 4.1](ex4_1.md)
+- [练习 4.2](ex4_2.md)
+- [练习 4.3](ex4_3.md)
+- [练习 4.4](ex4_4.md)
 
-## 5. Functions, Errors, and Testing
+## 5. 函数、错误与测试
 
-- [Exercise 5.1](ex5_1.md)
-- [Exercise 5.2](ex5_2.md)
-- [Exercise 5.3](ex5_3.md)
-- [Exercise 5.4](ex5_4.md)
-- [Exercise 5.5](ex5_5.md)
-- [Exercise 5.6](ex5_6.md)
+- [练习 5.1](ex5_1.md)
+- [练习 5.2](ex5_2.md)
+- [练习 5.3](ex5_3.md)
+- [练习 5.4](ex5_4.md)
+- [练习 5.5](ex5_5.md)
+- [练习 5.6](ex5_6.md)
 
-## 6. Working with Code
+## 6. 代码操作
 
-- [Exercise 6.1](ex6_1.md)
-- [Exercise 6.2](ex6_2.md)
-- [Exercise 6.3](ex6_3.md)
-- [Exercise 6.4](ex6_4.md)
-- [Exercise 6.5](ex6_5.md)
+- [练习 6.1](ex6_1.md)
+- [练习 6.2](ex6_2.md)
+- [练习 6.3](ex6_3.md)
+- [练习 6.4](ex6_4.md)
+- [练习 6.5](ex6_5.md)
 
-## 7. Metaprogramming
+## 7. 元编程
 
-- [Exercise 7.1](ex7_1.md)
-- [Exercise 7.2](ex7_2.md)
-- [Exercise 7.3](ex7_3.md)
-- [Exercise 7.4](ex7_4.md)
-- [Exercise 7.5](ex7_5.md)
-- [Exercise 7.6](ex7_6.md)
+- [练习 7.1](ex7_1.md)
+- [练习 7.2](ex7_2.md)
+- [练习 7.3](ex7_3.md)
+- [练习 7.4](ex7_4.md)
+- [练习 7.5](ex7_5.md)
+- [练习 7.6](ex7_6.md)
 
-## 8. Iterators, Generators, and Coroutines
+## 8. 迭代器、生成器与协程
 
-- [Exercise 8.1](ex8_1.md)
-- [Exercise 8.2](ex8_2.md)
-- [Exercise 8.3](ex8_3.md)
-- [Exercise 8.4](ex8_4.md)
-- [Exercise 8.5](ex8_5.md)
-- [Exercise 8.6](ex8_6.md)
+- [练习 8.1](ex8_1.md)
+- [练习 8.2](ex8_2.md)
+- [练习 8.3](ex8_3.md)
+- [练习 8.4](ex8_4.md)
+- [练习 8.5](ex8_5.md)
+- [练习 8.6](ex8_6.md)
 
-## 9. Modules and Packages
+## 9. 模块与包
 
-- [Exercise 9.1](ex9_1.md)
-- [Exercise 9.2](ex9_2.md)
-- [Exercise 9.3](ex9_3.md)
-- [Exercise 9.4](ex9_4.md)
+- [练习 9.1](ex9_1.md)
+- [练习 9.2](ex9_2.md)
+- [练习 9.3](ex9_3.md)
+- [练习 9.4](ex9_4.md)

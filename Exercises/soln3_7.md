@@ -1,7 +1,7 @@
 
-# Exercise 3.7 - Solution
+# 练习 3.7 — 解答
 
-## (a) Interfaces
+## (a) 接口
 
 ```python
 # tableformat.py
@@ -17,7 +17,7 @@ def print_table(records, fields, formatter):
 ...
 ```
 
-## (b) Abstract Base Classes
+## (b) 抽象基类
 
 ```python
 # tableformat.py
@@ -33,7 +33,7 @@ class TableFormatter(ABC):
         pass
 ```
 
-## (c) Algorithm Template Classes
+## (c) 算法模板类
 
 ```python
 # reader.py
@@ -82,4 +82,4 @@ def read_csv_as_instances(filename, cls):
 
 
 
-[Back](ex3_7.md)
+[返回](ex3_7.md)

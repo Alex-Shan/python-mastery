@@ -1,7 +1,7 @@
-# Exercise 2.3 - Solution
+# 练习 2.3 — 解答
 
-Work through the exercise. Code is given in the description.
+按步骤完成练习即可，说明中已给出代码。
 
 
 
-[Back](ex2_3.md)
+[返回](ex2_3.md)

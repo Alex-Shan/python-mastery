@@ -1,4 +1,4 @@
-# Exercise 5.5 - Solution
+# 练习 5.5 — 解答
 
 ```python
 # reader.py
@@ -47,4 +47,4 @@ def read_csv_as_instances(filename, cls, *, headers=None):
 
 
 
-[Back](ex5_5.md)
+[返回](ex5_5.md)

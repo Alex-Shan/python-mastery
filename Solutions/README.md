@@ -1,13 +1,3 @@
-# Solutions
+# 解答
 
-This directory contains fully worked out solution code for every
-exercise.  The code is written to be runnable from this directory.
-When taking the course, I would encourage you to try and come up
-with your own solution first.   However, if you're stuck or if
-everything has become broken, you can come here to get a fresh
-copy of code to work with.
-
-
-
-
-
+本目录包含每个练习的完整解答代码，可直接在此目录中运行。学习时建议先尝试独立解题；但如果遇到困难或代码已经无法运行，可以到这里获取一份新的可用代码。

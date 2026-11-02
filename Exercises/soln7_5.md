@@ -1,7 +1,7 @@
-# Exercise 7.5 - Solution
+# 练习 7.5 — 解答
 
-Nothing here.  Just follow the exercise.
+无单独解答，跟随练习操作即可。
 
 
 
-[Back](ex7_5.md)
+[返回](ex7_5.md)

@@ -1,9 +1,8 @@
-# Exercise 9.2 - Solution
+# 练习 9.2 — 解答
 
-## (a) Making a package
+## (a) 创建包
 
-You don't need to modify much source code.   Just make a directory with
-this structure:
+无需修改太多源代码，只需创建以下目录结构：
 
 ```
 structly/
@@ -14,7 +13,7 @@ structly/
     tableformat.py
 ```
 
-The `__init__.py` file can be empty.  You need to make one small change to the `structure.py` file to make the import statement work.
+`__init__.py` 可以为空。只需稍微修改 `structure.py`，使导入语句正常工作。
 
 ```python
 # structure.py
@@ -25,4 +24,4 @@ from .validate import Validator
 
 
 
-[Back](ex9_2.md)
+[返回](ex9_2.md)

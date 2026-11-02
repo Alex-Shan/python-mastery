@@ -1,6 +1,6 @@
-# Exercise 5.6 - Solution
+# 练习 5.6 — 解答
 
-## (b) Unit testing
+## (b) 单元测试
 
 ```python
 # teststock.py
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-## (c) Testing for Errors
+## (c) 测试错误
 
 ```python
 # teststock.py
@@ -126,4 +126,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex5_6.md)
+[返回](ex5_6.md)

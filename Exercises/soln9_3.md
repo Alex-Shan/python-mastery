@@ -1,6 +1,6 @@
-# Exercise 9.3 - Solution
+# 练习 9.3 — 解答
 
-## (a) Controlling Exported Symbols
+## (a) 控制导出符号
 
 ```python
 # structure.py
@@ -24,7 +24,7 @@ __all__ = ['create_formatter', 'print_table']
 ...
 ```
 
-## (b) Exporting Everything
+## (b) 导出所有内容
 
 ```python
 # structly/__init__.py
@@ -38,10 +38,9 @@ __all__ = [ *structure.__all__,
 	    *tableformat.__all__ ]
 ```
 
-## (c) Module Splitting
+## (c) 拆分模块
 
-There are a few parts to this.   First, the individual files in `tableformat/formats` are going to
-look like this:
+这包含几个部分。首先，`tableformat/formats` 中的各个文件如下：
 
 ```python
 # tableformat/formats/text.py
@@ -63,7 +62,7 @@ class HTMLTableFormatter(TableFormatter):
     ...
 ```
 
-The `formatter.py` file will look like this:
+`formatter.py` 如下：
 
 ```python
 # tableformat/formatter.py
@@ -123,7 +122,7 @@ def create_formatter(name, column_formats=None, upper_headers=False):
     return formatter_cls()
 ```
 
-Finally, you need to have a `tableformat/__init__.py` file like this:
+最后，还需要如下 `tableformat/__init__.py`：
 
 ```python
 # tableformat/__init__.py
@@ -134,4 +133,4 @@ __all__ = [ 'print_table', 'create_formatter' ]
 ```
 
 
-[Back](ex9_3.md)
+[返回](ex9_3.md)

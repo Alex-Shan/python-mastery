@@ -1,7 +1,7 @@
-# Exercise 9.1 - Solution
+# 练习 9.1 — 解答
 
-None.  Just follow the exercise steps.
+没有单独解答，按练习步骤操作即可。
 
 
 
-[Back](ex9_1.md)
+[返回](ex9_1.md)

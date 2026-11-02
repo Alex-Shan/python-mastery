@@ -1,4 +1,4 @@
-# Exercise 5.4 - Solution
+# 练习 5.4 — 解答
 
 ```python
 # typedproperty.py
@@ -36,4 +36,4 @@ if __name__ == '__main__':
 ```
 
 
-[Back](ex5_4.md)
+[返回](ex5_4.md)

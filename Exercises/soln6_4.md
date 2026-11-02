@@ -1,4 +1,4 @@
-# Exercise 6.4 - Solution
+# 练习 6.4 — 解答
 
 ```python
 # structure.py
@@ -27,7 +27,7 @@ class Structure:
         cls.__init__ = locs['__init__']
 ```
 
-Here is the `Stock` class in progress after this change:
+本次修改后的 `Stock` 类如下：
 
 ```python
 # stock.py
@@ -49,4 +49,4 @@ Stock.create_init()
 
 
 
-[Back](ex6_4.md)
+[返回](ex6_4.md)

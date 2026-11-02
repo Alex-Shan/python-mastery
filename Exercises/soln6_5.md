@@ -1,4 +1,4 @@
-# Exercise 6.5 - Solution
+# 练习 6.5 — 解答
 
 ```python
 # validate.py
@@ -36,4 +36,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex6_5.md)
+[返回](ex6_5.md)

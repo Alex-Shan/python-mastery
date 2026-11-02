@@ -1,6 +1,6 @@
-# Exercise 3.4 - Solution
+# 练习 3.4 — 解答
 
-## (a) Private attributes
+## (a) 私有属性
 
 ```python
 # stock.py
@@ -25,7 +25,7 @@ class Stock:
 ```
 
 
-## (b) Computed Attributes
+## (b) 计算属性
 
 ```python
 # stock.py
@@ -50,7 +50,7 @@ class Stock:
         self.shares -= nshares
 ```
 
-## (c) Enforcing Type-Checking Rules
+## (c) 强制类型检查规则
 
 ```python
 # stock.py
@@ -97,7 +97,7 @@ class Stock:
         self.shares -= nshares
 ```
 
-## (d) Adding `__slots__`
+## (d) 添加 `__slots__`
 
 ```python
 # stock.py
@@ -146,7 +146,7 @@ class Stock:
         self.shares -= nshares
 ```
 
-## (e) Reconciling types
+## (e) 统一类型定义
 
 ```python
 # stock.py
@@ -196,4 +196,4 @@ class Stock:
 
 
 
-[Back](ex3_4.md)
+[返回](ex3_4.md)

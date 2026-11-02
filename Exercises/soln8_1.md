@@ -1,6 +1,6 @@
-# Exercise 8.1 - Solution
+# 练习 8.1 — 解答
 
-## (b) Adding Iteration to Objects
+## (b) 为对象添加迭代功能
 
 ```python
 # structure.py
@@ -14,7 +14,7 @@ class Structure(metaclass=StructureMeta):
     ...
 ```
 
-## (c) The Surprising Power of Iteration
+## (c) 迭代的惊人能力
 
 ```python
 # structure.py
@@ -27,7 +27,7 @@ class Structure(metaclass=StructureMeta):
     ...
 ```
 
-## (d) Monitoring a streaming data source
+## (d) 监控流式数据源
 
 ```python
 # follow.py
@@ -58,11 +58,10 @@ if __name__ == '__main__':
             print('%10s %10.2f %10.2f' % (name, price, change))
 ```
 
-**Discussion**
+**讨论**
 
-The `time.sleep()` function is being used here to avoid busy-waiting
-on the CPU (e.g., sitting in an infinite loop with 100% CPU use while waiting for new lines to arrive)
-
+这里使用 `time.sleep()`，是为了避免 CPU 忙等待，例如在等待新数据行时以 100% 的 CPU 占用率运行无限循环。
 
 
-[Back](ex8_1.md)
+
+[返回](ex8_1.md)

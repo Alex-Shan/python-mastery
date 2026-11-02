@@ -1,32 +1,23 @@
-# Exercise 2.2 - Solution
+# 练习 2.2 — 解答
 
-There is no official solution for this exercise--you need rely on your
-current Python knowledge.  However, there are a few tips that can
-help.
+本练习没有官方解答，需要运用你已有的 Python 知识。不过，以下提示可能有帮助。
 
-- For problems where you need to determine uniqueness, use a set. Sets aren't allowed to
-have duplicates.
+- 需要确定唯一性时，使用集合，因为集合不允许重复元素。
 
-- If you need to tabulate data, consider using a dictionary that maps keys to a numeric
-count.  For example, to count rides on each bus route, you could make a dictionary that
-maps the route name to the total ride count for that route.  A `Counter` object from
-`collections` is perfect for this task.
+- 如需统计数据，考虑使用将键映射到数值计数的字典。例如，统计各线路乘车人次时，可将线路名映射到该线路的乘车总人次。`collections.Counter` 非常适合此任务。
 
-- If you need to keep data in order or sort data, store it in a list.
+- 如果需要保持数据顺序或排序，使用列表存储。
 
-- You can make Python data structures out of almost anything.  For
-example, dictionaries of sets, nested dictionaries, etc.  You might
-need to do this to answer questions 3 and 4.
+- Python 数据结构几乎可以任意组合，例如值为集合的字典、嵌套字典等。回答问题 3 和 4 时可能用得上。
 
-Even though no code is provided, here are some answers to the questions
-so that you can check your work:
+虽然不提供代码，下面给出各问题的答案，供你核对：
 
-1. How many bus routes exist in Chicago? (Answer: 181)
+1. 芝加哥有多少条公交线路？（答案：181）
 
-2. How many people rode the number 22 bus on February 2, 2011? (Answer: 5055)
+2. 2011 年 2 月 2 日有多少人乘坐 22 路公交车？（答案：5055）
 
-3. What is the total number of rides taken on each bus route? (Answer: for the top three routes, [('79', 133796763), ('9', 117923787), ('49', 95915008)])
+3. 各公交线路的乘车总人次是多少？（答案：前三名为 [('79', 133796763), ('9', 117923787), ('49', 95915008)]）
 
-4. What five bus routes had the greatest ten-year increase in ridership from 2001 to 2011? (Answer: [('15', 2732209), ('147', 2107910), ('66', 1612958), ('12', 1612067), ('14', 1351308)])
+4. 2001 年至 2011 年十年间，哪五条线路的客流增长最多？（答案：[('15', 2732209), ('147', 2107910), ('66', 1612958), ('12', 1612067), ('14', 1351308)]）
 
-[Back](ex2_2.md)
+[返回](ex2_2.md)

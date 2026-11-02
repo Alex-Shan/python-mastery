@@ -1,8 +1,8 @@
-# Exercise 8.5 - Solution
+# 练习 8.5 — 解答
 
-## (b) Generators as Tasks Serving Network Connections
+## (b) 将生成器用作处理网络连接的任务
 
-Here's the complete code.
+完整代码如下。
 
 ```python
 # server.py
@@ -63,4 +63,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex8_5.md)
+[返回](ex8_5.md)

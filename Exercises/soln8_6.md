@@ -1,6 +1,6 @@
-# Exercise 8.6 - Solution
+# 练习 8.6 — 解答
 
-## (a) Receiving Messages
+## (a) 接收消息
 
 ```python
 # coticker.py
@@ -63,7 +63,7 @@ if __name__ == '__main__':
            ticker('text', ['name','price','change'])))))
 ```
 
-## (b) Wrapping a Socket
+## (b) 包装套接字
 
 ```python
 # server.py
@@ -194,4 +194,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex8_6.md)
+[返回](ex8_6.md)

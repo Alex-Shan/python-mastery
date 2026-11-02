@@ -1,6 +1,6 @@
-# Exercise 7.2 - Solution
+# 练习 7.2 — 解答
 
-## (a) Copying Metadata
+## (a) 复制元数据
 
 ```python
 # logcall.py
@@ -16,7 +16,7 @@ def logged(func):
     return wrapper
 ```
 
-## (b) Decorators with arguments
+## (b) 带参数的装饰器
 
 ```python
 # logcall.py
@@ -34,16 +34,15 @@ def logformat(fmt):
     return logged
 ```
 
-The earlier `@logged` decorator can be rewritten as follows:
+之前的 `@logged` 可以重写为：
 
 ```python
 logged = logformat('Calling {func.__name__}')
 ```
 
-## (c) Decorators and methods
+## (c) 装饰器与方法
 
-You can get the code to work if you interchange the order of the 
-decorators.  For example:
+交换装饰器顺序就可以使代码运行。例如：
 
 ```python
 from logcall import logged
@@ -69,10 +68,9 @@ class Spam:
         pass
 ```
 
-Ponder why it doesn't work in the original order.  Is there any way to make
-the `@logged` decorator work regardless of the order in which its applied?
+思考为什么原来的顺序不起作用。能否让 `@logged` 无论按什么顺序应用都能正常工作？
 
-## (d) Validation (Redux)
+## (d) 再谈验证
 
 ```python
 # validate.py
@@ -153,4 +151,4 @@ def enforce(**annotations):
 
 
 
-[Back](ex7_2.md)
+[返回](ex7_2.md)

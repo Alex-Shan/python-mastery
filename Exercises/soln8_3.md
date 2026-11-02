@@ -1,4 +1,4 @@
-# Exercise 8.3 - Solution
+# 练习 8.3 — 解答
 
 ```python
 # coticker.py
@@ -68,4 +68,4 @@ if __name__ == '__main__':
 
 
 
-[Back](ex8_3.md)
+[返回](ex8_3.md)

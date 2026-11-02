@@ -1,158 +1,103 @@
-# Advanced Python Mastery
+# 精通 Python 高级编程
 
-A course by David Beazley (https://www.dabeaz.com)  
-Copyright (C) 2007-2026  
+> 本分支为简体中文文字教材，保留原目录结构、示例代码和数据。
+> [英文原版](https://github.com/dabeaz-course/python-mastery) · [中文练习目录](Exercises/index.md) · [许可原文](LICENSE.md)
+> `PythonMastery.pdf` 保留为英文原版。本版仅翻译文字，不修改课程或修复版本兼容问题。翻译与修订沿用 CC BY-SA 4.0 许可。
+> 下文保留了作者不同时期的说明；涉及最新版兼容性的旧说明，请结合 2026 年 10 月 22 日的归档通知阅读。
 
-## IMPORTANT NOTE (Oct. 22, 2026)
 
-It seems that recent versions of Python have broken some of the
-material in this course.  I'm not motivated to update it
-so the course is being archived and retired.  Thanks for your
-support over the years.  --Dave
+课程作者：David Beazley (https://www.dabeaz.com)<br>
+Copyright (C) 2007-2026
 
-## Synopsis
+## 重要说明（2026 年 10 月 22 日）
 
-An exercise-driven course on Advanced Python Programming that was
-battle-tested several hundred times on the corporate-training circuit
-for more than a decade.  Written by David Beazley, author of the
-[Python Cookbook, 3rd Edition](https://www.dabeaz.com/cookbook.html) (O'Reilly) and 
-[Python Distilled](https://www.dabeaz.com/python-distilled/index.html)
-(Addison-Wesley).  Released under a Creative Commons license.  Free of
-ads, tracking, pop-ups, newsletters, and AI.
+最近的 Python 版本似乎使本课程的部分内容无法正常工作。我没有动力继续更新，因此决定将课程归档并停止维护。感谢大家多年来的支持。——Dave
 
-Everything in this course should work with the latest version of
-Python, but be aware that the course primarily targets the feature set
-of Python 3.6.  As such, certain modern features don't get coverage. 
-Honestly, this shouldn't affect you much unless you're trying to write code
-that's freakishly clever.
+## 课程简介
 
-## Target Audience 
+这是一门以练习驱动的高级 Python 编程课程，十余年间在企业培训中经过数百次实战检验。作者 David Beazley 同时著有 [《Python Cookbook》第 3 版](https://www.dabeaz.com/cookbook.html)（O'Reilly）和 [《Python Distilled》](https://www.dabeaz.com/python-distilled/index.html)（Addison-Wesley）。课程以知识共享许可发布，不含广告、跟踪、弹窗、邮件订阅或 AI。
 
-This course is for Python programmers who want to move beyond 
-short scripts to writing more sophisticated programs.    To do that,
-it helps to better understand the programming techniques used
-in popular libraries and frameworks. Thus, this course is mainly 
-for programmers who want to build a more complete mental model of the
-Python language itself and how it works.  Ultimately, the goal
-is to be able to apply this knowledge to your own projects.
+本课程的所有内容本应能在最新版 Python 上运行，但主要面向 Python 3.6 的特性，因此不涵盖某些现代功能。坦率地说，除非你打算写特别炫技的代码，否则这通常不会产生太大影响。
 
-## Prerequisites
+## 适合人群
 
-You already know some Python.  This is not a course for beginners.
-For more introductory material, you might consider the
-[Practical Python Programming](https://dabeaz-course.github.io/practical-python) course.
+本课程面向希望从短脚本迈向更复杂程序的 Python 程序员。为此，了解流行库和框架中的编程技巧很有帮助。因此，课程主要帮助你更完整地理解 Python 语言本身及其工作方式，最终将这些知识用于自己的项目。
 
-## How to Take the Course
+## 预备知识
 
-To take the course, you should first fork/clone the GitHub repo to your own
-machine.
+你应已掌握一些 Python 知识。本课程不面向初学者。入门内容可参阅[《Python 实用编程》](https://dabeaz-course.github.io/practical-python)。
 
-It is assumed that you are working locally in a proper Python
-development environment.  That means a proper installation of Python,
-an editor/IDE, and whatever other tools that you would normally
-install to work on Python.  Due to the use of multiple files and
-module imports, the use of Notebooks is not recommended.
+## 如何学习
 
-The [`PythonMastery.pdf`](PythonMastery.pdf) file contains detailed
-presentation slides. Course exercises and suggested timings are
-clearly indicated. You'll want to keep this by your side (I recommend
-downloading and viewing it with a local PDF viewer). Start here! 
+首先，将 GitHub 仓库 fork 或克隆到本机。
 
-The [Exercises/](Exercises/index.md) directory has all of the
-course exercises. 
+课程假设你在合适的本地 Python 开发环境工作，包括正确安装的 Python、编辑器或 IDE，以及平时使用的其他开发工具。由于涉及多个文件和模块导入，不建议使用 Notebook。
 
-The [Solutions/](Solutions/) directory has fully worked out solution code.
+[`PythonMastery.pdf`](PythonMastery.pdf) 包含详细演示幻灯片，并明确标注课程练习和建议用时。建议将其放在手边，下载后用本地 PDF 阅读器查看。从这里开始！该文件保留为英文原版。
 
-The [Data/](Data/) directory has some datafiles used during the course.
+[Exercises/](Exercises/index.md) 包含全部课程练习。
 
-The course was originally taught over 4-5 days in an in-person
-classroom setting with a mix of lecture and hands-on exercises.
-Successful completion of the course will likely require 30-50 hours of
-work.  Exercises tend to build upon each other.  Solutions are always
-provided in case you get stuck.
+[Solutions/](Solutions/) 包含完整解答代码。
 
-## Supplemental Material
+[Data/](Data/) 包含课程使用的数据文件。
 
-The Advanced Python Mastery course often suggested more in-depth tutorials
-on selected topics.  These were presented at the PyCon conference and
-might be of interest:
+课程最初采用 4–5 天的面授形式，结合讲授与动手练习。完整学习通常需要 30–50 小时。练习往往逐步衔接；遇到困难时，始终有解答可供参考。
 
-* [Generator Tricks for Systems Programmers](https://www.dabeaz.com/generators/)
-* [A Curious Course on Coroutines and Concurrency](http://dabeaz.com/coroutines/index.html)
-* [Python3 Metaprogramming](https://dabeaz.com/py3meta/index.html)
-* [Generators: The Final Frontier](https://dabeaz.com/finalgenerator/index.html)
-* [Modules and Packages: Live and Let Die](https://dabeaz.com/modulepackage/index.html)
+## 补充材料
 
-## Questions and Answers
+本课程经常推荐针对特定主题的深入教程。这些教程曾在 PyCon 大会讲授，或许值得一看：
 
-**Q: Are any videos available?**
+* [面向系统程序员的生成器技巧](https://www.dabeaz.com/generators/)
+* [协程与并发趣味课程](http://dabeaz.com/coroutines/index.html)
+* [Python 3 元编程](https://dabeaz.com/py3meta/index.html)
+* [生成器：最后的边界](https://dabeaz.com/finalgenerator/index.html)
+* [模块与包：生存与消亡](https://dabeaz.com/modulepackage/index.html)
 
-**A:** No. You will be able to more quickly read the presentation slides which contain
-technical information.  However, the [Python Programming Language: LiveLessons](https://www.safaribooksonline.com/library/view/python-programming-language/9780134217314/) video
-available on O'Reilly's Safari site is closely related to the material in this course.
+## 问答
 
-**Q: Can I use these materials in my own course?**
+**问：有视频吗？**
 
-**A:** Yes. I just kindly ask that you give proper attribution.
+**答：** 没有。阅读包含技术信息的幻灯片会更快。不过，O'Reilly Safari 平台上的 [《Python 编程语言：视频课程》](https://www.safaribooksonline.com/library/view/python-programming-language/9780134217314/) 视频与本课程内容密切相关。
 
-**Q: Do you accept bug reports or pull requests?**
+**问：可以在自己的课程中使用这些材料吗？**
 
-**A:** If you've found a bug, please report it!  However, I'm not
-looking to expand or reorganize the course content with new topics or
-exercises.
+**答：** 可以，只需适当注明出处。
 
-**Q: Are the presentation slides available in any format other than PDF?**
+**问：接受错误报告或拉取请求吗？**
 
-**A:** No.
+**答：** 发现错误请报告！不过，我不打算通过新主题或练习扩充或重组课程。
 
-**Q: Is there any forum/chat where the course can be discussed?**
+**问：幻灯片还有 PDF 以外的格式吗？**
 
-**A:** You can use [GitHub discussions](https://github.com/dabeaz-course/python-mastery/discussions) to discuss the course.
+**答：** 没有。
 
-**Q: Why wasn't topic/tool/library X covered?**
+**问：有没有讨论课程的论坛或聊天室？**
 
-**A:** The course was designed to be completed in an intense 4-day
-in-person format. It simply isn't possible to cover absolutely
-everything.  As such, the course is focused primarily on the core
-Python language, not third party libraries or tooling.
+**答：** 可以使用 [GitHub Discussions](https://github.com/dabeaz-course/python-mastery/discussions) 讨论课程。
 
-**Q: Why aren't features like typing, async, or pattern matching covered?**
+**问：为什么没有涵盖某个主题、工具或库？**
 
-**A:** Mainly, it's an issue of calendar timing and scope.  Course
-material was primarily developed pre-pandemic and represents Python as
-it was at that time. Some topics (e.g., typing or async) are
-sufficiently complex that they would be better covered on their own
-in a separate course.
+**答：** 课程设计为高强度的 4 天面授，不可能涵盖所有内容。因此主要聚焦 Python 核心语言，而不是第三方库或工具。
 
-**Q: Do you have plans to modernize the course?**
+**问：为什么没有涵盖 typing、async 或模式匹配等特性？**
 
-**A:** It is my intention that everything in the course apply to the
-latest version of Python.  Unless Python makes backwards-incompatible
-changes to the core language, that should hold.  Although the course
-doesn't cover every new features, I won't rule out future changes.  A
-lot depends on my available time and interest however.  So, I make no
-promises.
+**答：** 主要受开发时间和范围所限。课程大部分内容在疫情前开发，反映当时的 Python。一些主题，例如 typing 或 async，足够复杂，更适合独立课程。
 
-**Q: Why did you release the course?**
+**问：有计划更新课程以适应现代 Python 吗？**
 
-**A:** This course was extensively taught pre-pandemic. Post-pandemic,
-my teaching has shifted towards projects and CS fundamentals.
-However, why let a good course just languish on my computer? 
+**答：** 我的本意是让所有内容适用于最新版 Python。除非 Python 对核心语言作出不向后兼容的修改，否则应能保持。尽管课程并不涵盖所有新特性，我也不排除未来修改的可能。这很大程度上取决于时间和兴趣，因此不作承诺。
 
-**Q: How can I help?**
+**问：为什么公开这门课程？**
 
-**A:** If you like the course, the best way to support it is to tell
-other people about it.
+**答：** 疫情前，这门课已广泛讲授。疫情后，我的教学转向项目与计算机科学基础。不过，为什么要让一门好课闲置在自己的电脑上呢？
+
+**问：我能如何帮忙？**
+
+**答：** 如果喜欢本课程，最好的支持方式是向其他人推荐它。
 
 ----
-`>>>` Advanced Python Mastery  
-`...` A course by [dabeaz](https://www.dabeaz.com)  
-`...` Copyright 2007-2023  
+`>>>` 精通 Python 高级编程<br>
+`...` 课程作者： [dabeaz](https://www.dabeaz.com)<br>
+`...` Copyright 2007-2023
 
-![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png). This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
-
-
-
-
-
-
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)。 本作品采用 [知识共享 署名—相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/)

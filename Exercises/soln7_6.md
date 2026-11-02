@@ -1,4 +1,4 @@
-# Exercise 7.6 - Solution
+# 练习 7.6 — 解答
 
 ```python
 # structure.py
@@ -90,4 +90,4 @@ def typed_structure(clsname, **validators):
 
 
 
-[Back](ex7_6.md)
+[返回](ex7_6.md)
